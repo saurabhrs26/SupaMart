@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="website.css" />
+    <title>Supermarket</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <img id="logo" src="./Images/logo.png" width="100px" height="100px" />
+      <h3 id="title">
+        <span id="supa">Supa</span><span id="market">Market</span>
+      </h3>
+
+      <div id="list">
+        <nav>
+          <ul type="none">
+            <li id="home"><a href="#">Home</a></li>
+            <li id="cate"><a href="#">Category</a></li>
+            <li id="store"><a href="#">Store</a></li>
+            <li id="contact"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <img
+        id="cart"
+        src="./Images/shopping-cart.png"
+        alt="shopping-cart"
+        height="20px"
+        width="20px"
+      />
+      <img id="bell" src="./Images/bell.png" height="20px" width="20px" />
+      
+    </div>
+    <div class="tag">
+    <div class="fampic">
+      <img src="Images/family.jpeg" id="fampic">
+    </div>
+    <div class="tagline">
+      Variaties and choice you won't refuse....
+    </div>
+  </div>
+  <div class="variety">
+    Our Products are:
+  </div>
+    <!-- <div class="smalltext">
+      Hello Peeps..We bring you the originality of the nature in which you will
+      never make compromise with the Health. Come and shop with
+      <b>"SupaMarket"</b>. Hurry Limited period offer in which you will save 50%
+      on various product. Offer valid till 9th of January
+    </div> -->
+    <div class="elements">
+      <div class="tree">
+        <img src="./Images/forest.png" height="200px" width="100px" class="boximg" />
+        <br />
+        <h3 align="center"><b >Fresh and Organic</b></h3>
+        
+      </div>
+
+      <div class="natural">
+        <img src="./Images/cutlery.png" height="200px" width="120px" class="boximg" />
+        <br />
+        <h3 align="center"><b>100% Natural</b></h3>
+        
+      </div>
+      <div class="rocker">
+        <img src="./Images/rocket.png" height="200px" width="120px" class="boximg" />
+        <br />
+        <h3 align="center"><b>Best Quality</b></h3>
+        
+      </div>
+      <div class="food">
+        <img src="./Images/food-safety.png" height="200px" width="120px" class="boximg" />
+        <br />
+        <h3 align="center"><b>Food Safety</b></h3>
+      </div>
+    </div>
+   
+    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/vegetables.jpeg" alt="..." height="680px" width="800px">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/fruits.jpeg" alt="..." height="680px" width="800px">
+        </div>
+        <div class="carousel-item">
+          <img src="Images/dairy.jpeg" alt="..." height="680px" width="800px">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br>
+   
+
+    <script>
+      const myCarouselElement = document.querySelector("#carouselExample");
+
+      const carousel = new bootstrap.Carousel(myCarouselElement, {
+        interval: 2000,
+        touch: false,
+      });
+    </script>
+  </body>
+</html>
