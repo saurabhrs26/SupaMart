@@ -1,0 +1,34 @@
+.registerBody{
+    height: 860px;
+    width: 600px;
+/* border: 1px solid black; */
+margin-left: 430px;
+margin-top: 50px;
+background-color: white;
+box-shadow: 5px -4px 18px 10px rgb(201, 212, 221);
+}
+.inner{
+    height: 720px;
+    width: 522px;
+    /* border: 1px solid black; */
+    margin-left: 37px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
+#submit{
+    margin-left: 150px;
+    height: 45px;
+    width: 200px;
+    font-size:large;
+}
+body{
+    background-color: aliceblue;
+}
+#crt{
+    text-align: center;
+    font-size: 60px;
+}
+{
+    text-decoration: none;
+}
